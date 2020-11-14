@@ -13,4 +13,4 @@
                                                                 :run-at  "document_end"}
                                                :entries        [rft-exts.content-script]}
                               :popup  {:output-type :chrome/single-file
-                                                :entries     [rft-exts.popup]}}}}}
+                                       :entries     [rft-exts.popup]}}}}}
