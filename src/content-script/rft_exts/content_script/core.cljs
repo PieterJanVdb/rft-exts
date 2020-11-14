@@ -38,6 +38,5 @@
     (run-chrome-event-loop! chrome-event-channel)))
 
 (defn init! []
-  (log "CONTENT SCRIPT: init")
   (restore-width!)
   (boot-chrome-event-loop!))
