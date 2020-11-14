@@ -1,10 +1,9 @@
 body {
   margin: 0;
-  background-color: #F6F7F8;
 }
 
 #app {
-  width: 260px;
+  width: 270px;
   padding: 10px;
 }
 
@@ -20,6 +19,14 @@ body {
   font-size: 15px;
   padding: 4px;
   margin-bottom: 12px;
+  text-align: center;
+}
+
+.info {
+  font-weight: 400;
+  font-size: 11px;
+  padding: 4px;
+  text-align: center;
 }
 
 .slider-container {
@@ -50,9 +57,20 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
+}
+
+.button-container.reset input {
+  background-color: rgb(220, 0, 78);
+}
+
+.button-container.reset input:hover {
+  background-color: rgb(154, 0, 54);
+}
+
+.button-container.confirm input {
   background-color:#1976d2;
 }
 
-.button-container input:hover {
+.button-container.confirm input:hover {
   background-color: rgb(17, 82, 147);
 }

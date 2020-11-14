@@ -15,3 +15,7 @@
 (defn persist-data! [key data]
   (let [storage (storage/get-local)]
     (sa/set storage (clj->js {key data}))))
+
+(defn clear-data! []
+  (let [storage (storage/get-local)]
+    (sa/clear storage)))

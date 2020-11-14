@@ -1,6 +1,5 @@
 (ns rft-exts.content-script.core
   (:require [cljs.core.async :refer [go-loop go <! chan]]
-            [chromex.logging :refer-macros [log]]
             [chromex.ext.storage :as storage]
             [rft-exts.shared.storage :as s]
             [chromex.chrome-event-channel :refer [make-chrome-event-channel]]))
