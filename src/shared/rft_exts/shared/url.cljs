@@ -7,6 +7,6 @@
     (let [[[tab] error] (<! (t/query #js {"active" true}))]
       (if error
         (error "Error retrieving hostname from popup:" error)
-        (when-let [urlStr (get (js->clj tab) "url")]
-          (when-let [url (js/URL. urlStr)]
+        (when-let [url-str (get (js->clj tab) "url")]
+          (when-let [url (js/URL. url-str)]
             (.-hostname url)))))))
