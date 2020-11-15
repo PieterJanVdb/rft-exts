@@ -7,4 +7,4 @@ Its sole purpose is to set the width of the body of a page to a certain percenta
 all with the idea of making pages where text spans the entire screen more readable. It will remember the
 width for each separate website based on the hostname, with the option to clear this.
 
-![](https://i.imgur.com/kzwfuAO.png)
+![](https://i.imgur.com/Kgx99IQ.gif)
